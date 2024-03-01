@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog - Landing Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo">
+            <span>My</span>
+            <span>First</span>
+            <span>Blog</span>
+        </h1>
+        <div class="btn-group">
+            <button id="back"><i class='bx bxs-left-arrow-square'></i>Back</button>
+            <div class="bx bx-sun" id="dark-mode-toggle"><span class="animate" style="--i:2;"></span></div>
+        </div>
+    </header>
+
+    <section class="page" id="page">
+        <div class="display-container">
+            <div class="display">
+                <img src="background-light.png" alt="background" class="display-img">
+            </div>
+        </div>
+        
+        <section class="blog" id="blog">
+            <h2 class="heading">Whats On Your Mind?</h2>
+        
+            <form id="blog-form" action="#" method="POST">
+                <div class="input-box">
+                    <div class="question">
+                        <input type="text" id="username" name="username" autocomplete="off" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="question">
+                        <input type="text" id="title"  name="title" autocomplete="off" required>
+                        <label>Title</label>
+                    </div>
+
+                    <div class="question">
+                        <input type="text" id="content"  name="content" autocomplete="off" required>
+                        <label>Content</label>
+                    </div>
+                </div>
+        
+                <div class="btn-box btns">
+                    <button type="submit" class="btn">Submit</button>
+    
+                    <span class="animate scroll" style="--i:9;"></span>
+                </div>
+            </form>
+        </section>
+    </section>
+
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Preston | All Rights Reserved</p>
+            </div>
+        
+            <div class="footer-iconTop">
+                <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/blog.js"></script>
+</body>
+
+</html>
