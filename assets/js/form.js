@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 return; // Exit the function if any field is invalid
             }
 
-            // Create a blog post object
+            // Create a blog post object from the form input values
             const post = {
                 username: username,
                 title: title,

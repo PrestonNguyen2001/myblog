@@ -44,7 +44,7 @@ const preloadImage = (url) => {
     img.src = url;
 }
 
-// Check if the current page is blog.html and show the back button
+// Check if current page is blog.html and show the back button
 const currentPage = window.location.pathname.split("/").pop();
 if (currentPage === "blog.html") {
     backButton.style.display = "block";
